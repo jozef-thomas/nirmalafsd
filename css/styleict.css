@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/bgi.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+}
+
+.navigation {
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.navigation a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+} 
+
+.navigation a:hover {
+    background-color: red;
+    color: black;
+}
+
+/* aside */
+.side {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+    width: 50%;
+    float: left;
+}
+
+.side h3 {
+    margin-bottom: 25px;
+}
+
+.side li {
+    padding: 5px;
+    list-style-type: square;
+}
+
+
+/* aside */
+
+
+/* form */
+.login {
+    border: 1px solid black;
+    float: right;
+    margin-top: 2px;
+}
+/* form */
